@@ -1,6 +1,7 @@
 # Case Study: Fraud Event Detector
 * Trained model using real-world data to detect fraud events in real-time
 * Created web app to inform company of high risk fraud events in real-time
+* To run the app using localhost, type `python DB_feed` in terminal to populate the database, then type `python app.py` in terminal and view the app in localhost:5000
 
 ## Pipeline
 
