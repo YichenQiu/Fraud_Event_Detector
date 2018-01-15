@@ -1,5 +1,6 @@
 # Case Study: Fraud Event Detector
-Detect fraud events among newly created events on the website
+* Trained model using real-world data to detect fraud events in real-time
+* Created web app to inform company of high risk fraud events in real-time
 
 ## Pipeline
 
