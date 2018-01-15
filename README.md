@@ -11,14 +11,14 @@ Detect fraud events among newly created events on the website
 
 
 ## Model Prediction:
-`files for model predictions`
+files for model predictions
 
-Model.py
+'Model.py'
   *unpack pickle model
   *parse dictionary object
   *returns predicted probability of fraud from a Pandas df of features*
 
-DB_feed.py
+'DB_feed.py'
   *makes a web request
   *sends dict file to model
   *calls Model.py to calculate the probability
@@ -31,13 +31,13 @@ MongoDB
 
 
 ## Dash App
-`files for pulling data from database`
+files for pulling data from database
 
-app.py
+'app.py'
   *pulls data from Database
   *sorts data
   *starts web app*
 
-fraud.html
+'fraud.html'
   *calls function in app.py to obtain data for html presentation
   *creates front-end webpage
