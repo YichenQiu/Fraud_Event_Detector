@@ -1,7 +1,7 @@
 # Case Study: Fraud Event Detector
 Detect fraud events among newly created events on the website
 
-## Pipeline:
+## Pipeline
 
 (1) Model Building ----->   (2) Fit Model
 
@@ -10,7 +10,7 @@ Detect fraud events among newly created events on the website
 (3) DB Feed ------>  (5) Database  ------->  (6) Dashboard App
 
 
-## Model Prediction:
+## Model Prediction
 files for model predictions
 
 `Model.py`
@@ -24,7 +24,7 @@ files for model predictions
   * calls Model.py to calculate the probability
   * sends {event_id, probability of fraud, risk label} to Database*
 
-## Database:
+## Database
 
 MongoDB
   * stores data sent by `DB_feed.py`
