@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+  <h2>Cases</h2>
+  <p>Top 25</p>
+  <table class="table table-bordered table-striped">
+    <TR>
+      <th>Event ID</th>
+      <th>Fraud Probability</th>
+      <th>Risk</th>
+    <TR>
+    {% for doc in docs[0:24] %}
+       <TD class="c1">{{doc[0]}}</TD>
+       <TD class="c2">{{doc[1]}}</TD>
+       <TD class="c3">{{doc[2]}}</TD>
+    </TR>
+    {% endfor %}
+  </table>
+</div>
+
+</body>
+</html>
