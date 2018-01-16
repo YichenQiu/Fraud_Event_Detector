@@ -18,13 +18,13 @@ files for model predictions
 `Model.py`
   * unpack pickle model
   * parse dictionary object
-  * returns predicted probability of fraud from a Pandas df of features*
+  * returns predicted probability of fraud from a Pandas df of features
 
 `DB_feed.py`
   * makes a web request
   * sends dict file to model
   * calls Model.py to calculate the probability
-  * sends {event_id, probability of fraud, risk label} to Database*
+  * sends {event_id, probability of fraud, risk label} to Database
 
 ## Database
 
@@ -38,7 +38,7 @@ files for pulling data from database
 `app.py`
   * pulls data from Database
   * sorts data
-  * starts web app*
+  * starts web app
 
 `fraud.html`
   * calls function in app.py to obtain data for html presentation
